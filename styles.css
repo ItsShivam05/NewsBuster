@@ -1,0 +1,106 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Fun and quirky font */
+    background-color: #f0f0f0;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-family: 'Papyrus', fantasy; /* Retro and bold */
+    text-shadow: 2px 2px 4px #ffcc00; /* Fun shadow effect */
+}
+
+.marquee {
+    background-color: #ffcc00;
+    color: #000;
+    padding: 5px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+article {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+article h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #cc0000; /* Bold red headlines */
+}
+
+article p {
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+article a {
+    color: #0000cc;
+    text-decoration: none;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+
+.loading {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+#visitor-counter {
+    font-weight: bold;
+    color: #ffcc00;
+}
