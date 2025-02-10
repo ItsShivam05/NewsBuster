@@ -1,4 +1,5 @@
-const apiKey = 'ffec09ae123642b187de693af15db2b0'; // Your API key
+const apiKey = window.ENV.API_KEY; // Your API key
+console.log(apiKey)
 const newsContainer = document.getElementById('news-container');
 const visitorCounter = document.getElementById('visitor-counter');
 
