@@ -1,4 +1,5 @@
-const apiKey = window.ENV.API_KEY; // Your API key
+// let apiKey = window.ENV.API_KEY; // Your API key for local
+const apiKey = process.env.API_KEY; // Your API key for production
 console.log(apiKey)
 const newsContainer = document.getElementById('news-container');
 const visitorCounter = document.getElementById('visitor-counter');
